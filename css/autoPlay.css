@@ -1,0 +1,21 @@
+	*{padding: 0;margin: 0;}
+			ul{
+				list-style: none;
+			}
+			/*设置box的属性*/
+			.box{
+				width: 600px;
+				height: 200px;
+				margin: 100px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.box ul{
+				width: 400%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			ul li{
+				float: left;
+			}
